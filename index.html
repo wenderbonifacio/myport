@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wender Bonifácio - Portfólio</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+<body class="w-100">
+
+<header >
+    <p class="hora" ></p>
+    
+    <i class="fas circle fa-circle"></i>
+
+</header>
+
+<div class="div-t" >
+    <section class="row area-total">
+        <div class="lside col-lg-5 col-md-8 mr-5">
+            <div class="about">
+                <div class="card col-lg-12 col-md-8 col-sm-">
+                    <div class="card-body">
+                        <h1 class="card-title">Bem Vindos</h1>
+                        <p class="card-text">
+                            Olá visitante, beleza? Meu nome é <span>Wender Bonifácio</span>, tenho 19 anos, estudante de Engenharia de Software e Desenvolvimento Web. Seja bem vindo(a) ao meu portfólio!
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-icon row">
+                <div class="menu col-lg-6  col-md-12">
+                    <h3 class="menu-titulo">
+                        Menu <img src="imagens/dropdown-arrow-457731.png" >
+                    </h3>
+                    <ul class="menu-ul">
+                        <li class="menu-li">
+                            <a href="#skills" class="menu-a">
+                                <span>1-</span> Skills
+                            </a>
+                        </li>
+                        <li class="menu-li">
+                            <a href="#projetos" class="menu-a">
+                                <span>2-</span> Projetos
+                            </a>
+                        </li>
+                        <li class="menu-li">
+                            <a href="#contato" class="menu-a">
+                                <span>3-</span> Contato
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="icon col-lg-6 col-md-12">
+                    <a href="https://github.com/wenderbonifacio" target="_blank"><i  class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/wenderbonifacio32/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/wdriano1/"  target="_blank"><i class="fab fa-instagram"></i></a>
+                  
+                  
+                                   
+                </div>
+            </div>
+            <div class="player mr-auto ml-auto ">
+       
+                <img class="pause" src="imagens/pause.png" onclick="pauseAudio()" 
+                    alt="">
+                <img class="play" src="imagens/plaay.png" onclick="playAudio()" 
+                    alt="">
+                <img src="imagens/stop.png" onclick="stopAudio()" alt="">
+                    
+                <img class="mutar" src="imagens/volume-1.png" onclick="mutaraudio()" alt="">
+                <img class="desmutar" src="imagens/volume-mute-solid.png" onclick="desmutaraudio()" alt="">
+                    
+    
+            </div>
+            <audio id="myAudio" autoplay loop>
+                <source src="audio/audio.mp3" type="audio/mpeg"  >
+                Your browser does not support the audio element.
+            </audio>
+           
+        </div>
+        <div class="rside col-lg-5 col-md-5">
+            <div id="skills" class="skills mb-5">
+               
+                <h1>Skills</h1>
+
+                <div class="area1">
+                    <input type="checkbox" name="check-html" id="check-html">
+                        <div class="bar html-area" >
+                            <div class="info">
+                               <label for="check-html">
+                                <span>
+                                    HTML
+                                </span>
+                                <i class="fas pt-2 fa-caret-square-down html-down"></i>
+                               </label> 
+                            </div>
+                            <div class="progress-line html">
+                                <span></span>
+                            </div>
+                            <p>Possuo um bom entendimento nas principais tags e elementos utilizados no HTML5, sendo totalmente capaz em estruturar e organizar um site completo.</p>
+                        </div>
+                        <input type="checkbox" name="check-css" id="check-css">
+                        <div class="bar css-area">
+                            <div class="info">
+                                <label for="check-css">
+                                    <span>
+                                        CSS
+                                    </span>
+                                    <i class="fas pt-2 fa-caret-square-down"></i>
+                                   </label> 
+
+                            </div>
+                            <div class="progress-line scss">
+                                <span></span>
+                            </div>
+                            <p>Mesmo ciente do  massivo conteúdo que o CSS nos apresenta, acredito ter um bom conhecimento nos principais elementos e atributos da linguagem, sendo capaz de estilizar um site por completo. </p>
+                        </div>
+                        <input type="checkbox" name="check-bts" id="check-bts">
+                        <div class="bar bts-area">
+                            <div class="info">
+                                <label for="check-bts">
+                                    <span>
+                                        BOOTSTRAP
+                                    </span>
+                                    <i class="fas pt-2 fa-caret-square-down"></i>
+                                   </label> 
+                            </div>
+                            <div class="progress-line bootstrap">
+                                <span></span>
+                            </div>
+                            <p>Me encontro no início do aprendizado, porém acredito já saber fazer uma boa ultilização de ferramentas como  Barra de navegação, dimensionamentos, cards e etc...</p>
+                        </div>
+                        <input type="checkbox" name="check-js" id="check-js">
+                        <div class="bar js-area">
+                            <div class="info">
+                                <label for="check-js">
+                                    <span>
+                                        JS
+                                    </span>
+                                    <i class="fas pt-2 fa-caret-square-down"></i>
+                                   </label> 
+                            </div>
+                            <div class="progress-line js ">
+                                <span></span>
+                            </div>
+                            <p>Nó inicio do meu aprendizado, mas com um bom entendimento nas principais ferramentas da tecnologia, como essas listadas <a href="https://www.youtube.com/watch?v=i6Oi-YtXnAU&t=13805s" target="_blank">aqui</a>, e tendo completado a parte de JS em cursos como <a href="https://www.cursoemvideo.com/curso/javascript/" target="_blank">esse </a> do curso em vídeo.</p>
+                        </div>
+                </div>
+                
+
+
+                
+            </div>
+            <div id="projetos" class="projetos mt-5">
+                <h1>Projetos</h1>
+                <div class="projeto1 projeto-box">
+                    <p class="nome-projeto pb-1 pl-3 pt-2">
+                        {Calculadora do Iphone em JavaScript}
+                    </p>
+                    <p class="links-projeto pl-4 ">
+                        <i class="fab fa-github-alt"></i> <a href="https://github.com/wenderbonifacio/calculadorajs" target="_blank">Arquivos do projeto no github</a> <br>
+                        <i class="fas fa-at"></i> <a href="https://wenderbonifacio.github.io/calculadorajs/" target="_blank">Site com o projeto hospedado</a>
+                    </p>
+                </div>
+                <div class="projeto2 projeto-box">
+                    <p class="nome-projeto pb-1 pl-3 pt-2">
+                        {FrontEnd - EasyBank Landing Page}
+                    </p>
+                    <p class="links-projeto pl-4 ">
+                        <i class="fab fa-github-alt"></i> <a href="https://github.com/wenderbonifacio/landingeasybank" target="_blank">Arquivos do projeto no github</a> <br>
+                        <i class="fas fa-at"></i> <a href="https://wenderbonifacio.github.io/landingeasybank/" target="_blank">Site com o projeto hospedado</a>
+                    </p>
+                </div>
+                <div class="projeto3 projeto-box">
+                    <p class="nome-projeto pb-1 pl-3 pt-2">
+                        {FrontEnd - Tela de Login do League of Legends}
+                    </p>
+                    <p class="links-projeto pl-4 ">
+                        <i class="fab fa-github-alt"></i> <a href="https://github.com/wenderbonifacio/loginleagueoflegends" target="_blank">Arquivos do projeto no github</a> <br>
+                        <i class="fas fa-at"></i> <a href="https://wenderbonifacio.github.io/loginleagueoflegends/" target="_blank">Site com o projeto hospedado</a>
+                    </p>
+                </div>
+                <div class="projeto4 projeto-box">
+                    <p class="nome-projeto pb-1 pl-3 pt-2">
+                        {FrontEnd - StarWars Game Page}
+                    </p>
+                    <p class="links-projeto pl-4 ">
+                        <i class="fab fa-github-alt"></i> <a href="https://github.com/wenderbonifacio/landinggaming" target="_blank">Arquivos do projeto no github</a> <br>
+                        <i class="fas fa-at"></i> <a href="https://wenderbonifacio.github.io/landinggaming/" target="_blank">Site com o projeto hospedado</a>
+                    </p>
+                </div>
+                <div class="projeto5 projeto-box">
+                    <p class="nome-projeto pb-1 pl-3 pt-2">
+                        {Aplicação WEB - Site de clima}
+                    </p>
+                    <p class="links-projeto pl-4 ">
+                        <i class="fab fa-github-alt"></i> <a href="https://github.com/wenderbonifacio/siteclimajs" target="_blank">Arquivos do projeto no github</a> <br>
+                        <i class="fas fa-at"></i> <a href="https://siteclimajs.vercel.app" target="_blank">Site com o projeto hospedado</a>
+                    </p>
+                </div>
+                <p class="disabled ver">Ver mais...</p>
+            </div>
+            <div id="contato" class="contato mt-5">
+                <h1>Contato</h1>`
+                <div class="row">
+                    
+                   
+                    <div class="box-contato ml-3 mr-2 col-3 mt-2">
+                            <a href="https://api.whatsapp.com/send?phone=5532999643800&text=Ol%C3%A1%2C%20em%20breve%20responderei%20sua%20mensagem!"  target="_blank"><i class="fab fa-whatsapp-square"></i></a>
+                    </div>
+                    <div class="box-contato col-3 mt-2">
+                        <a href="https://www.linkedin.com/in/wenderbonifacio32/"  target="_blank"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <div class="box-contato ml-3 col-3 mt-2">
+                        <a href="https://www.instagram.com/wdriano1/"  target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+                    
+                </div>
+            </div>
+            <footer class="mt-5">
+                <p class="mt-3"><span>Wender Bonifácio</span> - Todos os direitos reservados &copy; </p>
+            </footer>
+        </div>
+    </section>
+</div>
+<script src="js/script.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
